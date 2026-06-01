@@ -79091,7 +79091,7 @@ g5=g5==null?null:J.a1(g5)
 J.aC(a6,g5)}}}b2=new A.aZG()
 b3=A.a([],h8)
 for(h8=f,f6=h8.length,g4=0;g4<h8.length;h8.length===f6||(0,A.H)(h8),++g4){b4=h8[g4]
-if(b4!=null&&J.dG(b4))J.fo(b3,b4)}s=!(J.aF(k)===0&&!m)?9:10
+if(b4!=null&&J.dG(b4))J.fo(b3,b4)}s=J.aF(k)!==0||m?9:10
 break
 case 9:b5=A.a([],h5)
 J.aC(b5,"patient_id="+A.ez(1,B.m.k($.bzL().cx.gh(0)),B.aF,!0))
@@ -79199,7 +79199,7 @@ h3=J.aF(d9)!==0||J.aF(e0)!==0||J.aF(e1)!==0
 s=J.aF(d6)!==0||J.aF(d7)!==0||h3?16:17
 break
 case 16:e2=$.bzL().cx.gh(0)
-s=J.h(e2,"0")?18:20
+s=J.h(e2,0)?18:20
 break
 case 18:J.aC(h7,"Invalid patient ID. Cannot submit other therapy without patient.")
 s=19
